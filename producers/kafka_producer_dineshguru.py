@@ -65,11 +65,16 @@ def generate_messages(producer, topic, interval_secs):
 
     """
     string_list: list = [
-        "I love Python!",
-        "Kafka is awesome.",
-        "Streaming data is fun.",
-        "This is a buzz message.",
-        "Have a great day!",
+        "Welcome to real-time data streaming with Kafka!",
+        "Today's weather: Sunny, 25°C.",
+        "Breaking news: Local elections results announced.",
+        "New product alert: The BuzzPhone is now available!",
+        "System maintenance scheduled for 2:00 AM tomorrow.",
+        "Reminder: Team meeting at 3 PM.",
+        "Kafka producer testing in progress.",
+        "Top trending topic: #KafkaRocks",
+        "Error log: Disk usage exceeded 90%.",
+        "Have a productive day ahead!",
     ]
     try:
         while True:

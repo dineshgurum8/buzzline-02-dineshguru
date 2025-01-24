@@ -59,8 +59,20 @@ def process_message(message: str) -> None:
     Args:
         message (str): The message to process.
     """
-    logger.info(f"Processing message: {message}")
+    #logger.info(f"Processing message: {message}")
 
+    if "real-time data" in message:
+        logger.info(f"New account created: {message}")
+    elif "loan" in message:
+        logger.info(f"Username name recorded: {message}")
+    elif "transaction declined" in message:
+        logger.warning(f"Password accepted: {message}")
+    elif "placed an order" in message:
+        logger.error(f"Yayyee order!! {message}")
+     elif "payment processed" in message:
+        logger.error(f"Hurrah order!! {message}")
+    else:
+        logger.info(f"And done: {message}")
 
 #####################################
 # Define main function for this module

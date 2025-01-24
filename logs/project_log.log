@@ -914,3 +914,1043 @@
 2025-01-23 20:41:45.547 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
 2025-01-23 20:41:46.548 | INFO     | __main__:generate_messages:77 - Generated buzz: Have a great day!
 2025-01-23 20:41:46.549 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have a great day!
+2025-01-24 17:22:56.126 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-24 17:22:56.144 | INFO     | __main__:main:105 - START producer.
+2025-01-24 17:22:56.144 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-24 17:22:56.155 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-24 17:22:56.155 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-24 17:22:56.494 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 0, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'dTg8m408SfianTUm6a66mQ', 'controller_id': 0}
+2025-01-24 17:22:56.495 | INFO     | __main__:get_kafka_topic:41 - Kafka topic: buzzline
+2025-01-24 17:22:56.495 | INFO     | __main__:get_message_interval:48 - Message interval: 1 seconds
+2025-01-24 17:22:56.496 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-24 17:22:56.496 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-24 17:22:56.606 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-24 17:22:56.607 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-24 17:22:56.937 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'buzzline' already exists. Clearing it out...
+2025-01-24 17:22:56.937 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-24 17:22:57.286 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'buzzline': list indices must be integers or slices, not ConfigResource
+2025-01-24 17:22:57.288 | INFO     | __main__:main:121 - Kafka topic 'buzzline' is ready.
+2025-01-24 17:22:57.288 | INFO     | __main__:main:127 - Starting message production to topic 'buzzline'...
+2025-01-24 17:22:57.289 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:22:57.290 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:22:58.292 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:22:58.294 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:22:59.297 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:22:59.298 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:23:00.301 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:23:00.313 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:23:01.315 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:23:01.318 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:23:02.320 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:23:02.322 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:23:03.324 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:23:03.326 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:23:04.329 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:23:04.331 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:23:05.334 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:23:05.335 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:23:06.337 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:23:06.338 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:23:07.339 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:23:07.340 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:23:08.341 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:23:08.342 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:23:09.344 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:23:09.345 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:23:10.346 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:23:10.348 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:23:11.350 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:23:11.350 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:23:12.352 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:23:12.353 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:23:13.355 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:23:13.355 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:23:14.357 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:23:14.358 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:23:15.360 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:23:15.362 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:23:16.365 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:23:16.365 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:23:17.367 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:23:17.368 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:23:18.368 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:23:18.368 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:23:19.370 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:23:19.371 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:23:20.372 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:23:20.372 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:23:21.374 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:23:21.375 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:23:22.376 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:23:22.378 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:23:23.380 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:23:23.381 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:23:24.383 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:23:24.383 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:23:25.385 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:23:25.385 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:23:26.386 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:23:26.386 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:23:27.388 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:23:27.388 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:23:28.389 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:23:28.389 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:23:29.392 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:23:29.392 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:23:30.393 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:23:30.394 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:23:31.395 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:23:31.396 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:23:32.397 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:23:32.398 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:23:33.399 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:23:33.400 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:23:34.402 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:23:34.403 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:23:35.403 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:23:35.403 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:23:36.404 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:23:36.405 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:23:37.406 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:23:37.406 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:23:38.408 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:23:38.408 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:23:39.409 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:23:39.410 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:23:40.411 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:23:40.411 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:23:41.413 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:23:41.413 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:23:42.415 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:23:42.416 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:23:43.416 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:23:43.416 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:23:44.418 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:23:44.418 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:23:45.420 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:23:45.421 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:23:46.421 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:23:46.422 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:23:47.423 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:23:47.425 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:23:48.426 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:23:48.426 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:23:49.428 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:23:49.429 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:23:50.430 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:23:50.430 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:23:51.431 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:23:51.431 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:23:52.433 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:23:52.433 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:23:53.434 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:23:53.434 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:23:54.437 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:23:54.438 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:23:55.439 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:23:55.439 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:23:56.441 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:23:56.442 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:23:57.443 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:23:57.444 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:23:58.445 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:23:58.446 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:23:59.447 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:23:59.448 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:24:00.450 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:24:00.450 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:24:01.452 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:24:01.453 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:24:02.454 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:24:02.454 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:24:03.456 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:24:03.456 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:24:04.460 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:24:04.462 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:24:05.463 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:24:05.464 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:24:06.467 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:24:06.468 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:24:07.469 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:24:07.470 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:24:08.471 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:24:08.473 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:24:09.475 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:24:09.477 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:24:10.479 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:24:10.480 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:24:11.482 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:24:11.482 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:24:12.485 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:24:12.486 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:24:13.489 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:24:13.490 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:24:14.492 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:24:14.495 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:24:15.498 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:24:15.500 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:24:16.502 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:24:16.505 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:24:17.507 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:24:17.508 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:24:18.509 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:24:18.510 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:24:19.511 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:24:19.513 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:24:20.516 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:24:20.518 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:24:21.521 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:24:21.522 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:24:22.524 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:24:22.524 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:24:23.526 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:24:23.527 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:24:24.528 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:24:24.529 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:24:25.531 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:24:25.533 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:24:26.534 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:24:26.536 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:24:27.538 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:24:27.540 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:24:28.541 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:24:28.542 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:24:29.543 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:24:29.544 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:24:30.545 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:24:30.547 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:24:31.549 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:24:31.552 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:24:32.555 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:24:32.556 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:24:33.559 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:24:33.559 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:24:34.561 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:24:34.563 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:24:35.565 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:24:35.566 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:24:36.569 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:24:36.572 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:24:37.574 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:24:37.576 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:24:38.577 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:24:38.581 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:24:39.583 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:24:39.586 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:24:40.588 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:24:40.589 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:24:41.591 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:24:41.592 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:24:42.594 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:24:42.595 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:24:43.597 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:24:43.599 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:24:44.602 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:24:44.604 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:24:45.606 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:24:45.606 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:24:46.607 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:24:46.607 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:24:47.609 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:24:47.610 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:24:48.611 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:24:48.611 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:24:49.613 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:24:49.613 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:24:50.615 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:24:50.615 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:24:51.617 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:24:51.617 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:24:52.619 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:24:52.620 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:24:53.621 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:24:53.621 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:24:54.623 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:24:54.624 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:24:55.627 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:24:55.627 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:24:56.630 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:24:56.633 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:24:57.634 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:24:57.634 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:24:58.636 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:24:58.638 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:24:59.642 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:24:59.643 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:25:00.644 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:25:00.645 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:25:01.648 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:25:01.649 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:25:02.651 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:25:02.653 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:25:03.657 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:25:03.659 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:25:04.662 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:25:04.663 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:25:05.666 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:25:05.666 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:25:06.667 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:25:06.671 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:25:07.673 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:25:07.676 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:25:08.677 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:25:08.677 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:25:09.680 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:25:09.682 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:25:10.684 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:25:10.686 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:25:11.688 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:25:11.691 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:25:12.693 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:25:12.694 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:25:13.696 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:25:13.697 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:25:14.699 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:25:14.699 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:25:15.700 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:25:15.701 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:25:16.702 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:25:16.703 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:25:17.498 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-24 17:25:17.501 | INFO     | __main__:main:90 - START consumer.
+2025-01-24 17:25:17.501 | INFO     | __main__:get_kafka_topic:35 - Kafka topic: buzzline
+2025-01-24 17:25:17.501 | INFO     | __main__:get_kafka_consumer_group_id:42 - Kafka consumer group id: default_group
+2025-01-24 17:25:17.501 | INFO     | __main__:main:95 - Consumer: Topic 'buzzline' and group 'default_group'...
+2025-01-24 17:25:17.502 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-24 17:25:17.502 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='buzzline' and group ID='default_group'.
+2025-01-24 17:25:17.621 | INFO     | utils.utils_consumer:create_kafka_consumer:57 - Kafka consumer created successfully.
+2025-01-24 17:25:17.622 | INFO     | __main__:main:101 - Polling messages from topic 'buzzline'...
+2025-01-24 17:25:17.705 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:25:17.707 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:25:17.769 | INFO     | __main__:process_message:75 - And done: Have a great day!
+2025-01-24 17:25:17.770 | INFO     | __main__:process_message:75 - And done: I love Python!
+2025-01-24 17:25:17.770 | INFO     | __main__:process_message:75 - And done: Kafka is awesome.
+2025-01-24 17:25:17.771 | INFO     | __main__:process_message:75 - And done: I love Python!
+2025-01-24 17:25:17.772 | INFO     | __main__:process_message:75 - And done: Kafka is awesome.
+2025-01-24 17:25:17.772 | INFO     | __main__:process_message:75 - And done: Streaming data is fun.
+2025-01-24 17:25:17.772 | INFO     | __main__:process_message:75 - And done: This is a buzz message.
+2025-01-24 17:25:17.773 | INFO     | __main__:process_message:75 - And done: Have a great day!
+2025-01-24 17:25:17.773 | INFO     | __main__:process_message:75 - And done: I love Python!
+2025-01-24 17:25:17.773 | INFO     | __main__:process_message:75 - And done: Kafka is awesome.
+2025-01-24 17:25:17.774 | INFO     | __main__:process_message:75 - And done: I love Python!
+2025-01-24 17:25:17.774 | INFO     | __main__:process_message:75 - And done: Kafka is awesome.
+2025-01-24 17:25:17.775 | INFO     | __main__:process_message:75 - And done: Streaming data is fun.
+2025-01-24 17:25:17.776 | INFO     | __main__:process_message:75 - And done: This is a buzz message.
+2025-01-24 17:25:17.776 | INFO     | __main__:process_message:75 - And done: Have a great day!
+2025-01-24 17:25:17.777 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.777 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.777 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.778 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.778 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.779 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.779 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.779 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.780 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.780 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.781 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.781 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.782 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.782 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.782 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.783 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.783 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.783 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.784 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.784 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.785 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.785 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.786 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.786 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.787 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.787 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.787 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.788 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.789 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.789 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.789 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.790 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.791 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.791 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.792 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.792 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.792 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.793 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.793 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.794 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.794 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.794 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.795 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.795 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.795 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.795 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.796 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.796 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.797 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.797 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.798 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.798 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.798 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.799 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.799 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.799 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.800 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.800 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.801 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.801 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.802 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.802 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.802 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.803 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.804 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.804 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.805 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.805 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.805 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.806 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.806 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.806 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.807 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.807 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.807 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.808 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.808 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.808 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.809 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.809 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.809 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.810 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.810 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.810 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.811 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.811 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.811 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.811 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.812 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.812 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.812 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.812 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.813 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.813 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.814 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.814 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.814 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.815 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.815 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.815 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.816 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.816 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.817 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.817 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.817 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.818 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.818 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.818 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.819 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.819 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.820 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.820 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.820 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.821 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.821 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.821 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.822 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.822 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.822 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.823 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.823 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.823 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.824 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.824 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.825 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.825 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.825 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.826 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.826 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.826 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.826 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.827 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.827 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.827 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.827 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:17.828 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:17.828 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:17.828 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:17.829 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:17.829 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:17.829 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:18.708 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:25:18.709 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:25:18.713 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:19.711 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:25:19.712 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:25:19.717 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:20.714 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:25:20.715 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:25:20.722 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:21.718 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:25:21.719 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:25:21.724 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:22.721 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:25:22.722 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:25:22.726 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:23.724 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:25:23.725 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:25:23.731 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:24.728 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:25:24.729 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:25:24.732 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:25.730 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:25:25.732 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:25:25.739 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:26.735 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:25:26.735 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:25:26.738 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:27.736 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:25:27.737 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:25:27.741 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:28.739 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:25:28.740 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:25:28.744 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:29.741 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:25:29.741 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:25:29.746 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:30.743 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:25:30.743 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:25:30.746 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:31.745 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:25:31.747 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:25:31.753 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:32.749 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:25:32.749 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:25:32.752 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:33.751 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:25:33.753 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:25:33.756 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:34.755 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:25:34.755 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:25:34.758 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:35.756 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:25:35.757 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:25:35.761 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:36.759 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:25:36.760 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:25:36.765 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:37.762 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:25:37.762 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:25:37.766 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:38.765 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:25:38.766 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:25:38.772 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:39.768 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:25:39.769 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:25:39.771 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:40.770 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:25:40.771 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:25:40.774 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:41.772 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:25:41.774 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:25:41.776 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:42.775 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:25:42.776 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:25:42.780 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:43.779 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:25:43.779 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:25:43.783 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:44.781 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:25:44.781 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:25:44.785 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:45.783 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:25:45.784 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:25:45.788 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:25:46.785 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:25:46.786 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:25:46.790 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:25:47.788 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:25:47.788 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:25:47.791 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:25:48.790 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:25:48.790 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:25:48.795 | ERROR    | __main__:process_message:71 - Yayyee order!! User placed an order
+2025-01-24 17:25:49.793 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:25:49.793 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:25:49.796 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:25:50.795 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:25:50.795 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:25:50.800 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:25:51.797 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:25:51.798 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:25:52.801 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:25:52.802 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:25:53.803 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:25:53.803 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:25:54.805 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:25:54.806 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:25:55.807 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:25:55.809 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:25:56.812 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:25:56.818 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:25:57.819 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:25:57.820 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:25:58.821 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:25:58.821 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:25:59.823 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:25:59.824 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:26:00.827 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:26:00.828 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:26:01.731 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-24 17:26:01.733 | INFO     | __main__:main:90 - START consumer.
+2025-01-24 17:26:01.734 | INFO     | __main__:get_kafka_topic:35 - Kafka topic: buzzline
+2025-01-24 17:26:01.734 | INFO     | __main__:get_kafka_consumer_group_id:42 - Kafka consumer group id: default_group
+2025-01-24 17:26:01.734 | INFO     | __main__:main:95 - Consumer: Topic 'buzzline' and group 'default_group'...
+2025-01-24 17:26:01.734 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-24 17:26:01.734 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='buzzline' and group ID='default_group'.
+2025-01-24 17:26:01.829 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:26:01.832 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:26:01.848 | INFO     | utils.utils_consumer:create_kafka_consumer:57 - Kafka consumer created successfully.
+2025-01-24 17:26:01.848 | INFO     | __main__:main:101 - Polling messages from topic 'buzzline'...
+2025-01-24 17:26:02.187 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:26:02.188 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:26:02.188 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:26:02.189 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:26:02.190 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:26:02.190 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:26:02.191 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:26:02.192 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:26:02.192 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:26:02.193 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:26:02.194 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:26:02.194 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:26:02.195 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:26:02.195 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:26:02.834 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:26:02.835 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:26:02.842 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:26:03.837 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:26:03.838 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:26:03.844 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:26:04.840 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:26:04.840 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:26:04.844 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:26:05.842 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:26:05.844 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:26:05.847 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:26:06.845 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:26:06.845 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:26:06.849 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:26:07.847 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:26:07.848 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:26:07.851 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:26:08.849 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:26:08.851 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:26:08.856 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:26:09.853 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:26:09.853 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:26:09.858 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:26:10.856 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:26:10.857 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:26:10.860 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:26:11.858 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:26:11.858 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:26:11.861 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:26:12.859 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:26:12.860 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:26:12.863 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:26:13.861 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:26:13.862 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:26:13.866 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:26:14.864 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:26:14.864 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:26:14.867 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:26:15.865 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:26:15.867 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:26:15.872 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:26:16.869 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:26:16.869 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:26:16.872 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:26:17.871 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:26:17.872 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:26:17.875 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:26:18.873 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:26:18.873 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:26:18.876 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:26:19.875 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:26:19.876 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:26:19.880 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:26:20.877 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:26:20.877 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:26:20.880 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:26:21.878 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:26:21.878 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:26:21.882 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:26:22.880 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:26:22.881 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:26:22.885 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:26:23.883 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:26:23.884 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:26:23.887 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:26:24.885 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:26:24.886 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:26:24.892 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:26:25.889 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:26:25.889 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:26:25.893 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:26:26.891 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:26:26.893 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:26:26.897 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:26:27.894 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:26:27.895 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:26:27.897 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:26:28.896 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:26:28.897 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:26:28.900 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:26:29.899 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:26:29.900 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:26:29.905 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:26:30.902 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:26:30.903 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:26:30.905 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:26:31.904 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:26:31.905 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:26:31.907 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:26:32.906 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:26:32.906 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:26:32.909 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:26:33.907 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:26:33.908 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:26:33.912 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:26:34.910 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:26:34.911 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:26:34.914 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:26:35.912 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:26:35.913 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:26:35.917 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:26:36.914 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:26:36.916 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:26:36.921 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:26:37.918 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:26:37.918 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:26:37.921 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:26:38.920 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:26:38.920 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:26:38.923 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:26:39.921 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:26:39.923 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:26:39.926 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:26:40.924 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:26:40.926 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:26:40.929 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:26:41.927 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:26:41.928 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:26:41.931 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:26:42.929 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:26:42.929 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:26:42.932 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:26:43.930 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:26:43.930 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:26:43.933 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:26:44.932 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:26:44.933 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:26:44.938 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:26:45.936 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:26:45.937 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:26:45.940 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:26:46.938 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:26:46.938 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:26:46.941 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:26:47.940 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:26:47.940 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:26:47.943 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:26:48.942 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:26:48.942 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:26:48.945 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:26:49.943 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:26:49.943 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:26:49.946 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:26:50.945 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:26:50.946 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:26:50.948 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:26:51.947 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:26:51.948 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:26:51.950 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:26:52.949 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:26:52.949 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:26:52.952 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:26:53.951 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:26:53.951 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:26:53.954 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:26:54.953 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:26:54.953 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:26:54.956 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:26:55.955 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:26:55.955 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:26:55.958 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:26:56.956 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:26:56.957 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:26:56.961 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:26:57.959 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:26:57.960 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:26:57.966 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:26:58.963 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:26:58.965 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:26:58.971 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:26:59.967 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:26:59.968 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:26:59.972 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:27:00.970 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:27:00.971 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:27:00.975 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:27:01.973 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:27:01.973 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:27:01.976 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:27:02.975 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:27:02.976 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:27:02.979 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:27:03.978 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:27:03.978 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:27:03.982 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:27:04.980 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:27:04.981 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:27:04.984 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:27:05.982 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:27:05.982 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:27:05.987 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:27:06.984 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:27:06.984 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:27:06.987 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:27:07.986 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:27:07.986 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:27:07.992 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:27:08.988 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:27:08.988 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:27:08.992 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:27:09.991 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:27:09.992 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:27:09.994 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:27:10.993 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:27:10.993 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:27:10.998 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:27:11.995 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:27:11.997 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:27:12.000 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:27:12.998 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:27:12.999 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:27:13.002 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:27:14.000 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:27:14.001 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:27:14.004 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:27:15.002 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:27:15.003 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:27:15.005 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:27:16.004 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:27:16.005 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:27:16.010 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:27:17.007 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:27:17.007 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:27:17.011 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:27:18.009 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:27:18.010 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:27:18.015 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:27:19.012 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:27:19.013 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:27:19.016 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:27:20.014 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:27:20.015 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:27:20.019 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:27:21.017 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:27:21.017 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:27:21.020 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:27:22.019 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:27:22.020 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:27:22.023 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:27:23.021 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:27:23.022 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:27:23.025 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:27:24.024 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:27:24.025 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:27:24.029 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:27:25.026 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:27:25.027 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:27:25.029 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:27:26.028 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:27:26.028 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:27:26.031 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:27:27.029 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:27:27.030 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:27:27.034 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:27:28.032 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:27:28.032 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:27:28.034 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:27:29.033 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:27:29.036 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:27:29.039 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:27:30.037 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:27:30.038 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:27:30.040 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:27:31.040 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:27:31.040 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:27:31.042 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:27:32.041 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:27:32.043 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:27:32.048 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:27:33.045 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:27:33.045 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:27:33.051 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:27:34.048 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:27:34.048 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:27:34.052 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:27:35.050 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:27:35.052 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:27:35.055 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:27:36.054 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:27:36.054 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:27:36.057 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:27:37.056 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:27:37.056 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:27:37.060 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:27:38.057 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:27:38.058 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:27:38.062 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:27:39.060 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:27:39.061 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:27:39.067 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:27:40.063 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:27:40.063 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:27:40.067 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:27:41.066 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:27:41.067 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:27:41.071 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:27:42.068 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:27:42.069 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:27:42.073 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:27:43.071 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:27:43.071 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:27:43.074 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:27:44.072 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:27:44.072 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:27:44.075 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:27:45.074 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:27:45.075 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:27:45.077 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:27:46.076 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:27:46.076 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:27:46.079 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:27:47.078 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:27:47.078 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:27:47.081 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:27:48.079 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:27:48.080 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:27:48.083 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:27:49.081 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:27:49.083 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:27:49.089 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:27:50.085 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:27:50.086 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:27:50.090 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:27:51.088 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:27:51.088 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:27:51.091 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:27:52.089 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:27:52.090 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:27:52.093 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:27:53.091 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:27:53.091 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:27:53.093 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:27:54.093 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:27:54.093 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:27:54.096 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:27:55.095 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:27:55.095 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:27:55.098 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:27:56.097 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:27:56.098 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:27:56.104 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:27:57.101 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:27:57.101 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:27:57.105 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:27:58.103 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:27:58.103 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:27:58.107 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:27:59.105 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:27:59.105 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:27:59.108 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:28:00.107 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:28:00.108 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:28:00.112 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:28:01.110 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:28:01.110 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:28:01.112 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:28:02.111 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:28:02.111 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:28:02.115 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:28:03.113 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:28:03.114 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:28:03.119 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:28:04.116 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:28:04.117 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:28:04.119 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:28:05.118 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:28:05.119 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:28:05.124 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:28:06.121 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:28:06.123 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:28:06.126 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:28:07.124 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:28:07.124 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:28:07.128 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:28:08.126 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:28:08.128 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:28:08.133 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:28:09.130 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:28:09.133 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:28:09.137 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:28:10.135 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:28:10.137 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:28:10.141 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:28:11.138 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:28:11.138 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:28:11.140 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:28:12.139 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:28:12.140 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:28:12.142 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:28:13.141 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:28:13.142 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:28:13.146 | ERROR    | __main__:process_message:71 - Hurrah order!! User placed an order
+2025-01-24 17:28:14.144 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:28:14.146 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:28:14.152 | INFO     | __main__:process_message:75 - And done: Order processed!
+2025-01-24 17:28:15.148 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:28:15.149 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:28:15.152 | INFO     | __main__:process_message:75 - And done: Payment processedorder delivered
+2025-01-24 17:28:16.150 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:28:16.150 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:28:16.155 | INFO     | __main__:process_message:75 - And done: New user created account!
+2025-01-24 17:28:17.153 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:28:17.155 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:28:17.161 | INFO     | __main__:process_message:75 - And done: Username created
+2025-01-24 17:28:18.157 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:28:18.158 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:28:18.162 | INFO     | __main__:process_message:75 - And done: Password created
+2025-01-24 17:28:19.160 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:28:19.160 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:28:20.162 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:28:20.163 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:28:21.164 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:28:21.165 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:28:22.168 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:28:22.169 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:28:23.170 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:28:23.173 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:28:24.176 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:28:24.178 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created
+2025-01-24 17:28:25.182 | INFO     | __main__:generate_messages:79 - Generated buzz: User placed an order
+2025-01-24 17:28:25.183 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': User placed an order
+2025-01-24 17:28:26.185 | INFO     | __main__:generate_messages:79 - Generated buzz: Order processed!
+2025-01-24 17:28:26.187 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Order processed!
+2025-01-24 17:28:27.190 | INFO     | __main__:generate_messages:79 - Generated buzz: Payment processedorder delivered
+2025-01-24 17:28:27.192 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Payment processedorder delivered
+2025-01-24 17:28:28.194 | INFO     | __main__:generate_messages:79 - Generated buzz: New user created account!
+2025-01-24 17:28:28.194 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': New user created account!
+2025-01-24 17:28:29.196 | INFO     | __main__:generate_messages:79 - Generated buzz: Username created
+2025-01-24 17:28:29.196 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Username created
+2025-01-24 17:28:30.198 | INFO     | __main__:generate_messages:79 - Generated buzz: Password created
+2025-01-24 17:28:30.198 | INFO     | __main__:generate_messages:81 - Sent message to topic 'buzzline': Password created

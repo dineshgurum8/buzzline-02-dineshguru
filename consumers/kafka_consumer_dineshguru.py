@@ -61,16 +61,16 @@ def process_message(message: str) -> None:
     """
     #logger.info(f"Processing message: {message}")
 
-    if "real-time data" in message:
+    if "new user" in message:
         logger.info(f"New account created: {message}")
     elif "loan" in message:
         logger.info(f"Username name recorded: {message}")
     elif "transaction declined" in message:
         logger.warning(f"Password accepted: {message}")
-    elif "placed an order" in message:
-        logger.error(f"Yayyee order!! {message}")
-     elif "payment processed" in message:
-        logger.error(f"Hurrah order!! {message}")
+    elif "Food placed an order" in message:
+        logger.error(f"your order placed!! {message}")
+    elif "payment processed" in message:
+        logger.error(f"Food order processed!! {message}")
     else:
         logger.info(f"And done: {message}")
 

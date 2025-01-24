@@ -68,10 +68,10 @@ def generate_messages(producer, topic, interval_secs):
        "New user created account!",
         "Username created",
         "Password created",
-        "User placed an order",
-        "Order processed!",
+        "User placed an food order",
+        "Food Order processed!",
         "Payment processed"
-        "order delivered",        
+        "Food order delivered",        
     ]
     try:
         while True:
